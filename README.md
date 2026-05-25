@@ -10,6 +10,7 @@ ICPC などの問題については、公式サイト (<https://icpc.jp> など)
 ```plaintext
 [contest-name]/
 ├── contest.yaml
+├── Makefile
 └── [problem-name]/
     ├── domjudge-problem.ini
     ├── problem.{pdf,html,txt}
@@ -29,6 +30,8 @@ ICPC などの問題については、公式サイト (<https://icpc.jp> など)
 
 `contest.yaml` および各問題のディレクトリの構造は、 DOMjudge のインポート形式に従います。
 詳しくは [DOMjudge のドキュメント](https://www.domjudge.org/docs/manual/9.0/import.html) を参照してください。
+
+`make icpc2025-prelim-a.zip` など、 Makefile で各問題の zip ファイルが生成できます。
 
 ## 免責事項
 
