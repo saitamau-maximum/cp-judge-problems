@@ -1,0 +1,4 @@
+problem_format_version: legacy
+name: 連絡を絶やすな
+validation: default
+validator_flags: float_tolerance 1E-8

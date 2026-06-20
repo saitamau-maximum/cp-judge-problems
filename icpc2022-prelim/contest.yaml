@@ -1,0 +1,31 @@
+id: icpc2022-prelim
+formal_name: ICPC2022 国内予選
+start_time: 2022-07-08T16:30:00+09:00
+end_time: 2022-07-08T19:30:00+09:00
+duration: 3:00:00.000
+penalty_time: 20
+problems:
+  - id: icpc2022-prelim-a
+    label: A
+    letter: A
+  - id: icpc2022-prelim-b
+    label: B
+    letter: B
+  - id: icpc2022-prelim-c
+    label: C
+    letter: C
+  - id: icpc2022-prelim-d
+    label: D
+    letter: D
+  - id: icpc2022-prelim-e
+    label: E
+    letter: E
+  - id: icpc2022-prelim-f
+    label: F
+    letter: F
+  - id: icpc2022-prelim-g
+    label: G
+    letter: G
+  - id: icpc2022-prelim-h
+    label: H
+    letter: H
