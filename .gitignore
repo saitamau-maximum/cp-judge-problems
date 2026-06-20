@@ -1,1 +1,4 @@
 *.zip
+.venv
+*.html
+!problem.html
