@@ -1,0 +1,4 @@
+problem_format_version: legacy
+name: 全員生還?
+validation: default
+validator_flags: float_tolerance 1E-9
