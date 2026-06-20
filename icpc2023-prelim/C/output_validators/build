@@ -1,0 +1,3 @@
+#!/bin/sh
+# output_checker.cpp をコンパイルして checker という実行ファイルを作成する
+g++ -O2 -Wall -std=gnu++20 output_checker.cpp -o checker

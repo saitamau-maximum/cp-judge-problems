@@ -1,0 +1,28 @@
+#!/bin/sh
+
+JUDGE_DIR=$(dirname $0)
+
+TESTIN="$1"
+TESTANS="$2"
+FEEDBACKDIR="$3"
+# チーム出力は標準入力で渡されるため、一時ファイルに保存
+TEAMOUT=$(mktemp)
+cat > "$TEAMOUT"
+
+# testlib の引数順: <input> <output> <answer> で実行
+"$JUDGE_DIR/checker" "$TESTIN" "$TEAMOUT" "$TESTANS"
+EXITCODE=$?
+
+# 一時ファイルの削除
+rm -f "$TEAMOUT"
+
+if [ $EXITCODE -eq 0 ]; then
+  exit 42  # AC
+elif [ $EXITCODE -eq 1 ]; then
+  exit 43  # WA
+elif [ $EXITCODE -eq 2 ]; then
+  exit 43  # PE -> WA
+else
+  # その他のエラーはそのまま返す (Judge Error として扱う)
+  exit $EXITCODE
+fi
