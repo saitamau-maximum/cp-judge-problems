@@ -1,8 +1,8 @@
 id: icpc2025-prelim
-formal_name: "ICPC2025 国内予選"
-start_time: "2025-07-04T16:30:00+09:00"
-end_time: "2025-07-04T19:30:00+09:00"
-duration: "3:00:00.000"
+formal_name: ICPC2025 国内予選
+start_time: 2025-07-04T16:30:00+09:00
+end_time: 2025-07-04T19:30:00+09:00
+duration: 3:00:00.000
 penalty_time: 20
 problems:
   - id: icpc2025-prelim-a
