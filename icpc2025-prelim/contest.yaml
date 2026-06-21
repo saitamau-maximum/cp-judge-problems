@@ -8,27 +8,36 @@ problems:
   - id: icpc2025-prelim-a
     label: A
     letter: A
+    color: red
   - id: icpc2025-prelim-b
     label: B
     letter: B
+    color: blue
   - id: icpc2025-prelim-c
     label: C
     letter: C
+    color: orange
   - id: icpc2025-prelim-d
     label: D
     letter: D
+    color: fuchsia
   - id: icpc2025-prelim-e
     label: E
     letter: E
+    color: aqua
   - id: icpc2025-prelim-f
     label: F
     letter: F
+    color: green
   - id: icpc2025-prelim-g
     label: G
     letter: G
+    color: white
   - id: icpc2025-prelim-h
     label: H
     letter: H
+    color: pink
   - id: icpc2025-prelim-i
     label: I
     letter: I
+    color: yellow
