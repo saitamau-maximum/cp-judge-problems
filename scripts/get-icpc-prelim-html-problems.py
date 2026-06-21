@@ -120,6 +120,8 @@ def main():
     minified_html = minify_html(soup)
 
     print("Generating files...")
+    with open(workdir / "all.html", "w", encoding="utf-8") as f:
+        f.write(str(soup))
     for problem in problems:
         print(f"  Problem {problem}...")
         problem_soup = BeautifulSoup(minified_html, "html.parser")
