@@ -22,6 +22,8 @@ elif [ $EXITCODE -eq 1 ]; then
   exit 43  # WA
 elif [ $EXITCODE -eq 2 ]; then
   exit 43  # PE -> WA
+elif [ $EXITCODE -eq 3 ]; then
+  exit 43  # Fail -> WA
 else
   # その他のエラーはそのまま返す (Judge Error として扱う)
   exit $EXITCODE
